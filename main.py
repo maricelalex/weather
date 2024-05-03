@@ -14,7 +14,7 @@ def main():
     Console().clear()
     LAT = 10.7460  # Replace with your Hometown Latitude
     LON = 124.7946  # Replace with your Hometown Longitude
-    KEY = "REPLACE_WITH_YOUR_API_KEY"
+    KEY = "96d0ef46c4fcb1aef349f6c8ad1fabc4"
 
     API = "https://api.openweathermap.org/data/2.5/weather"
     URL = f"{API}?lat={LAT}&lon={LON}&units=metric&appid={KEY}"
